@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#header-img{
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.title{
+    color: pink; 
+    font-family: 'EB Garamond', serif; 
+    text-shadow: 1px 1px white; 
+    font-size: 50px;
+}
+.container {
+    width: 100%;
+    background-color: #343a40;    
+}
+.navbar{
+    width: 80%;
+    margin: auto;
+    pad: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: pink;
+    font-size: x-large;
+    font-family: 'ABeeZee', sans-serif;
+}
+body{
+    background-color: #fec5bb;
+}
+footer{
+    background-color: #343a40;
+    color: white;
+    height: 90px;
+}
+.main{
+    background-color: #dddddd;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+}
+h1{
+    color: pink; 
+    font-family: 'EB Garamond', serif; 
+    text-shadow: 1px 1px white; 
+    text-align: center;
+    font-size: 40px;
+}
+.besure{
+    color: #343a40; 
+    font-family: 'EB Garamond', serif; 
+    text-shadow: 1px 1px white; 
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    color: pink; 
+    font-family: 'EB Garamond', serif; 
+    text-shadow: 1px 1px white; 
+    text-align: center;
+}
+#container2{
+    display: flex;
+    justify-content: space-between;
+    height: 370px;    
+    margin: 20px 20px;
+}
+.description {
+    width: 400px;
+    align-items: center;
+    text-align: justify;
+    margin: auto;
+    font-family: 'ABeeZee', sans-serif;
+    }
+.validation{
+    width: 400px;  
+    align-items: center;
+    text-align: center; 
+    margin: auto; 
+    font-family: 'ABeeZee', sans-serif;
+    border-radius: 5px;
+    background-color: pink;
+    height: 280px;
+    padding: 10px;
+}
+.validar{
+    padding-top: 10px;
+}
+.imagecard{
+    width: 200px;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+.boton{
+    background-color: #d56062;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'ABeeZee', sans-serif;
+}
+.boton:hover{
+    opacity: .5
+}
+#numberCard{
+    border: 2px solid #d6dbd2;
+    background-color: aliceblue;
+    width: 200px;
+    height: 25px;
+    border-radius: 4px;
+}
+.redes1{
+    font-size: 25px;
+    background-color: #343a40;
+    border: none;
+    padding: 5px;   
+    margin-left: 550px;
+}
+.redes2{
+    font-size: 25px;
+    background-color: #343a40;
+    border: none;
+    padding: 5px;   
+    margin-left: 20px;
+}
+.redes3{
+    font-size: 25px;
+    background-color: #343a40;
+    border: none;
+    padding: 5px;   
+    margin-left: 20px;
+}
+a{
+    color: whitesmoke;
+}
+button:hover {
+    transform:scale(0.9);
+    transition: all 0.5s ease;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+#true{
+ display: none;
+}
+#false{
+display: none;
+}
