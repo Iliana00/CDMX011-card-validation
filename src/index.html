@@ -2,13 +2,54 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>BeSure</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Prompt:wght@200&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9a789f6d2d.js" crossorigin="anonymous"></script>
   </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
-</html>
+  <header> <!--El header incluye el menú de la página, así como el logo y nombre.-->
+    <div class="container">
+        <div class="navbar">    
+          <img id="header-img" src="image/logo.png" alt="logo"> 
+          <h1 class="title">BeSure</h1>
+        <ul>
+          <li><a class="nav-link" href="#Inicio"> Inicio</a></li>
+          <li><a class="nav-link" href="#Contacto">Contacto</a> </li>
+        </ul>      
+    </div>
+    </div>
+    </header>
+    <main id="Inicio" class="main">    <!--Con Main, inicia el cuerpo de la página, dentro se incluye una breve descripción de la marca, así como la validación.-->
+    <script src="index.js" type="module"></script>    
+    <div id="container2">
+      <div class="description">
+        <h1 class="besure">BeSure</h1>
+        <br>
+        <p>BeSure es un validador de tarjetas gratuito creado con el fin de realizar pruebas a los datos bancarios y verificarlos. Tus datos jamás serán almacenados. </p>
+        <br>
+          <img class="imagecard" src="image/card.png" alt="Tarjeta de crédito/débito">
+        </div>
+      <div class="validation">
+        <p class="validar">¡Bienvenidxs!</p>
+        <br>      
+          <label for="valida">Valida tu tarjeta:</label><br><br>
+          <br>
+          <input type="text" id="numberCard" name="numberCard" placeholder="############4567" pattern="[0-9]*" maxlength="16"/>
+          <br>
+          <br>
+          <p id="parrafo"></p>
+          <br>      
+          <button id="boton" class="boton">Validar</button>          
+      </div>
+    </div>
+    </main>
+    <footer id="Contacto"> <!--El footer incluye los sitios de contacto.-->
+          <h2>Contacto:</h2>
+          <br>
+          <button class="redes1"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></button>
+          <button class="redes2"><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></button>
+          <button class="redes3"><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></button>
+
+    </footer>
+    </html>
