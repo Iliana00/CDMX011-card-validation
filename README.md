@@ -1,3 +1,4 @@
+![card](https://user-images.githubusercontent.com/74528786/125006610-20e11b00-e024-11eb-82d0-0c1df9a6b309.png)
 # Tarjeta de crédito válida
 
 ## Índice
@@ -11,6 +12,13 @@
 * [7. Consideraciones técnicas](#7-consideraciones-técnicas)
 * [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
 * [9. Checklist](#9-checklist)
+
+
+
+
+
+![card](https://user-images.githubusercontent.com/74528786/125006627-2b031980-e024-11eb-82a3-2266f69de916.png)
+
 
 ***
 
