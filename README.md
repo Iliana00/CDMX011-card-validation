@@ -10,13 +10,16 @@
   ![logo](https://user-images.githubusercontent.com/74528786/125006958-edeb5700-e024-11eb-9d29-b16362e7584b.png)
   
   
-  BeSure es una página creada para mújeres, es pensado en ellas, aunque no exclusivamente. 
+  BeSure es una página creada para mujeres, es pensado en ellas, aunque no exclusivamente. 
   Las usuarias necesitan muchas veces de corroborar la validez de las tarjetas, para ello esta página web responde
   a esta necesidad.
   
   Investigación UX:
   Se crearon dos prototipos: el primero de baja fidelidad, el segundo de alta fidelidad.
   Este fue creado a lápiz y papel.
+  
+  ![WhatsApp Image 2021-07-12 at 10 13 57 PM](https://user-images.githubusercontent.com/74528786/125387128-092acf00-e363-11eb-9367-4b428b3cc941.jpeg)
+
   
   Este otro a través de Figma.
   ![Captura de pantalla 2021-07-08 195519](https://user-images.githubusercontent.com/74528786/125007723-7caca380-e026-11eb-8cee-c3d22d79b2a0.jpg) 
